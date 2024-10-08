@@ -113,14 +113,6 @@ def play_game():
             print(result)
             break
 
-        # Computerzug
-        draw_move(board)
-        display_board(board)
-        result = victory_for(board, 'X')
-        if result != "The game continues.":
-            print(result)
-            break
-
 
 # Spiel starten
 play_game()
